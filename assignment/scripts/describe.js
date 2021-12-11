@@ -135,6 +135,9 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - colorOne value should actually be 'blue' and colorTwo value should be 'red' according to the instructions. Also, the instructions say to set colorOne AND colorTwo value to purple.
+//
+
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -148,6 +151,10 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - In the compound conditional they are checking if the temp is greater than 39 OR if time is greater than or equal to 4. The instructions say to check if temp is higher than
+// 39 AND if time is greater than or equal to 4.
+
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +167,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// FIX - The if statement should console.log 'enter', and the else statement should console.log 'no entry'.
 
 if(minAge <= age) {
   console.log('no entry');
