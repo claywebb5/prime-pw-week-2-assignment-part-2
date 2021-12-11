@@ -26,7 +26,7 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We first make a variable called name and set it's value to "Dane". Then we create a conditional
+// We first make a variable called name and set it's value to "Dane" as a string. Then we create a conditional
 // to test if the value for name is an exact match to "Mary". If the value for name is true, we
 // would console.log 'Hi, Mary!'. If the value for name is not true then we would console.log 'How do you do?'.
 // The value is "Dane" not "Mary", so we will console.log 'How do you do?'.
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We first make an undefined variable called secret. Then we create the variable called code and make it's value 123 as a number.
+// We check if the value of code is an exact match to 123, if it's true, then the value of secret will be "super" and the value of code
+// will be doubled. Or, if the value of code is just less than 250, then the value of secret will be "duper".
+// Since the value of code is exactly 123 then the value of code is now doubled, and we will console.log 'super'.
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We first create the variable isStudent and set the value to true, then create the variable age and set the value equal to 34 as a number, we also create the variable zip and set the value equal to 55407 as a number.
+// We check if the value of isStudent is true AND if the value of zip is greater than 80000, if so then we would console.log 'You're a student on the West Coast!'. If that's not true, then
+// we also check if isStudent is false OR if the value if age is less than 30, if so then we would console.log 'What are your hobbies?'. If that's not true, then we check if the value of
+// isStudent is true, if so then we would console.log 'Welcome to Prime!'. If none of these are true then we would console.log 'How about the weather?'. Since isStudent is equal to true,
+// then we will console.log 'Welcome to Prime!'.
 
 //CODE
 /*
